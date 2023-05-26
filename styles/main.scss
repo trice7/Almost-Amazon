@@ -96,3 +96,35 @@ body {
     white-space: pre-wrap;
   }
 }
+
+.auth-container {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.card-contain {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+
+  .card {
+    width: 300px;
+    margin: 5px;
+
+    .sale-badge {
+      font-size: 1em;
+      background-color: blue;
+    }
+  }
+
+  .table {
+    margin: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
